@@ -4,7 +4,7 @@ from torchvision import models
 
 class Calibration_Model(torch.nn.Module):
     def __init__(self, dropout=0.5):
-        super(model_cal_clip, self).__init__()
+        super(Calibration_Model, self).__init__()
         self.drop_rate = dropout
         self.fc1 = nn.Linear(1, 2048)
         self.dropout1 = nn.Dropout(self.drop_rate)
