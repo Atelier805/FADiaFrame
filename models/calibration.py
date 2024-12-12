@@ -1,4 +1,8 @@
-class model_cal_clip(torch.nn.Module):
+import torch
+import torch.nn as nn
+from torchvision import models
+
+class Calibration_Model(torch.nn.Module):
     def __init__(self, dropout=0.5):
         super(model_cal_clip, self).__init__()
         self.drop_rate = dropout
