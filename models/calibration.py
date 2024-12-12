@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torchvision import models
 
 class Calibration_Model(torch.nn.Module):
     def __init__(self, dropout=0.5):
