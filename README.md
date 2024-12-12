@@ -1,3 +1,3 @@
 # FADiaFrame
 
-The full code will be updated as it is organized.
+The full code and content will be updated as they are organized.
